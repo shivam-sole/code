@@ -94,8 +94,91 @@
         <iframe width="560" height="315" src="https://www.youtube.com/embed/MUZu9UM3uk8?si=sRuStbp-mZr96ksb"
             title="YouTube video player" frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
+            <p>Replace VIDEO_ID with the ID of an appropriate Youtube video </p>
+            <h3>Example HTML </h3>
 
-</body>
+            <code>
+                <h1> Kaho Naa ... Pyaar Hai </h1>
+                <p> romantic musical film </p>
+
+            </code>
+            <hr>
+
+            <h2>Cast And Rating </h2>
+
+            <table border="1">
+                <tr>
+                    <th>Actor</th>
+                    <th>Character</th>
+                    <th>Rating</th>
+                </tr>
+                <tr>
+                    <td>Hritik Roshan</td>
+                    <td>Rohit and Raj</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>Ameesha Patel</td>
+                    <td>Sonia</td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td>Anupam Kher</td>
+                    <td>Mr.Saxena</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <th colspan="2">Average Person Rating </th>
+                    <th>9</th>
+                </tr>
+            </table>
+            <form>
+                <caption>Submit Your Movie Review </caption>
+                <fieldset>
+                    <legend>Your Details</legend>
+                    <label>Full Name :</label>
+                    <input type = "text" placeholder = "Enter your full name" required>
+                    <label>Email :</label>
+                    <input type = "email" placeholder = "Enter your email" required>
+                    <label>Password :</label>
+                    <input type = "password" placeholder = "Enter your password" required>
+                    <label>Date Watched :</label>
+                    <input type = "date" required>
+                </fieldset>
+                <fieldset>
+                    <legend>Your Review</legend>
+                    <label>Would you recommend this movie ?</label><br>
+                    <input type = "radio" name = "recommend" value = "yes" required> Yes
+                    <input type = "radio" name = "recommend" value = "no" required  > No
+                    <br>
+                    <label>Your Rating :</label>
+                    <select name = "rating" required>
+                        <option value = "">Select a rating</option>
+                        <option value = "10">10</option>
+                        <option value = "9">9</option>
+                        <option value = "8">8</option>
+                        <option value = "7">7</option>
+                        <option value = "6">6</option>
+                        <option value = "5">5</option>
+                    </select>
+                    <label>Favorite Part </label>
+                    <textarea placeholder = "Write your favorite part of the movie" required></textarea>
+                    <br>
+                    <label>Write your review :  </label>
+                    <textarea placeholder = "Write your review here" required></textarea>
+                    <br>
+                </fieldset>
+
+                <hr>
+                <p>
+                    <b>Kaho Naa.. Pyaar Hai .</b> Movie Information<br>
+                    created for HTML practice 
+                </p>
+
+
+            </form>
+        </body>
+
 
 </html>
