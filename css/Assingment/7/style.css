@@ -1,0 +1,49 @@
+body{
+
+    font-family: "Quicksand", sans-serif;
+}
+h1{
+    text-align: center;
+    color: rgb(12, 12, 131);
+}
+.heading_section{
+    text-align: center;
+    color: rgba(51,65,85,1);
+}
+#popular{
+    text-align: center;
+    color: green;
+    text-decoration: underline;
+}
+.dest1{
+    background-color:rgba(110 , 208 ,246 ,1);
+    border-radius: 12px;
+    height: 230px;
+    width: 600px;
+}
+h3,h4{
+    color: green;
+}
+.dest1 p{
+    color : rgba(88, 121, 142 , 1);
+}
+li{
+    color: brown;
+}
+h2{
+    color: green;
+}
+.foot{
+    text-align: center;
+    color: rgba(139,19,24,1);
+}
+a{
+    text-decoration: none;
+    font-weight: 800;
+}
+.tip::before{
+    content: "Tip: ";
+    color: green;
+    font-weight: 800;
+
+}

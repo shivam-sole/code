@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+    color: aliceblue;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.head{
+    color: rgba(255, 215, 0, 1);
+
+    text-align: center;
+}
+.mini{
+    color: orange;
+    background-color: rgba(24,24,25,1);
+    width: 500px;
+}
+.col{
+    background-color:  rgba(43, 44, 47, 1);
+    height: 450px;
+    width: 500px;
+;
+}
+.caption{
+    background: rgba(24, 24, 25, 1);
+    width: 500px;
+    height: 46;
+}
+.footoor{
+    background: rgba(12, 12, 13, 1);
+    color: green;
+    font-weight: 800;
+    text-align: center;
+
+}
